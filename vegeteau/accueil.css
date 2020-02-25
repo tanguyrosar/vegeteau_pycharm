@@ -1,0 +1,93 @@
+
+body{
+    background: linear-gradient(#1056aa, #e9e2d1);
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 3px;
+}
+h1{
+    font-family: 'Nunito Sans';
+    font-size: 50px;
+    text-align: center;
+    margin-left: 260px;
+}
+#sc_table {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    font-size: 20px;
+    background: linear-gradient(to bottom, rgba(187, 191, 191,1),rgba(255,255,255,0.8));
+    border-radius: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+caption{
+    color: maroon;
+    font-size: 32px;
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom-style: groove;
+    border-bottom-width: 1px;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: inset;
+    border-color:grey;
+    border-width: 1px;
+    background: linear-gradient(to bottom, rgba(228, 232, 232, 0.8),rgba(255,255,255,0.2));
+}
+
+td{
+    margin-left: 10px;
+    border-left-style: groove;
+    border-width: 1px;
+    padding-left: 3px;
+}
+
+th{
+    padding-left: 2px;
+}
+
+#head_logo{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo_vegeteau{
+    width: 120px;
+    height: auto;
+}
+
+footer{
+    margin-top: 40px;
+
+}
+
+#button{
+    background-color: #086caa;
+    border: none;
+    color: white;
+    padding: 17px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin-right: 9px;
+}
