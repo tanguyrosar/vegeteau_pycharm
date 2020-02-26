@@ -37,11 +37,9 @@ footer{
     margin-right: 9px;
 }
 
-#container{
-    padding-left: 400px;
-    padding-right: 400px;
-    padding-bottom: 200px;
-    padding-top: 200px;
+
+#graph{
+    border-width: 2px;
     border-style: solid;
     border-color: black;
 }
@@ -49,6 +47,7 @@ footer{
 #formulaire{
     display: flex;
     flex-direction: row;
+    margin-bottom: 4px;
 }
 
 #params{
